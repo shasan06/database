@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.archelocapp_1.ui.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/activity_main">
+        <action
+            android:id="@+id/action_loginFragment_pop_including_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true">
+
+            <argument
+                android:name="token"
+                app:argType="string" />
+
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/newSurveyFragment"
+        android:name="com.example.archelocapp_1.ui.NewSurveyFragment"
+        android:label="NewSurveyFragment"
+        tools:layout="@layout/activity_arrow__btn">
+        <action
+            android:id="@+id/action_newSurveyFragment_to_startSurveyFragment"
+            app:destination="@id/startSurveyFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/startSurveyFragment"
+        android:name="com.example.archelocapp_1.ui.StartSurveyFragment"
+        android:label="StartSurveyFragment"
+        tools:layout="@layout/activity_start_survey">
+        <action
+            android:id="@+id/action_startSurveyFragment_to_observerFragment"
+            app:destination="@id/observerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/observerFragment"
+        android:name="com.example.archelocapp_1.ui.ObserverFragment"
+        android:label="ObserverFragment"
+        tools:layout="@layout/activity_starting_new_survey">
+        <action
+            android:id="@+id/action_observerFragment_to_addNewEvent"
+            app:destination="@id/addNewEvent" />
+        <action
+            android:id="@+id/action_observerFragment_to_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/newSurveyFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewEvent"
+        android:name="com.example.archelocapp_1.ui.AddNewEventFragment"
+        android:label="AddNewEvent"
+        tools:layout="@layout/fragment_new_event">
+        <action
+            android:id="@+id/action_addNewEvent_to_chooseEventFragment"
+            app:destination="@id/chooseEventFragment" />
+        <action
+            android:id="@+id/action_addNewEvent_to_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/newSurveyFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseEventFragment"
+        android:name="com.example.archelocapp_1.ui.ChooseEventFragment"
+        android:label="ChooseEventFragment"
+        tools:layout="@layout/fragment_choose__event">
+        <action
+            android:id="@+id/action_chooseEventFragment_to_adultEmergencyFragment"
+            app:destination="@id/adultEmergencyFragment" />
+        <action
+            android:id="@+id/action_chooseEventFragment_to_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/newSurveyFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/suspectedNestFragment"
+        android:name="com.example.archelocapp_1.ui.SuspectedNestFragment"
+        android:label="SuspectedNestFragment"
+        tools:layout="@layout/fragment_nest__place">
+        <action
+            android:id="@+id/action_suspectedNestFragment_to_lastNestFragment"
+            app:destination="@id/lastNestFragment" />
+        <action
+            android:id="@+id/action_suspectedNestFragment_to_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/newSurveyFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_suspectedNestFragment_to_addNewEvent"
+            app:destination="@id/addNewEvent"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/addNewEvent"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/lastNestFragment"
+        android:name="com.example.archelocapp_1.ui.LastNestFragment"
+        android:label="LastNestFragment"
+        tools:layout="@layout/activity_last_layout">
+        <action
+            android:id="@+id/action_lastNestFragment_to_newSurveyFragment"
+            app:destination="@id/newSurveyFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/newSurveyFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_lastNestFragment_to_addNewEvent"
+            app:destination="@id/addNewEvent" />
+    </fragment>
+    <fragment
+        android:id="@+id/adultEmergencyFragment"
+        android:name="com.example.archelocapp_1.ui.AdultEmergencyFragment"
+        android:label="AdultEmergencyFragment"
+        tools:layout="@layout/fragment_adult_emergence">
+        <action
+            android:id="@+id/action_adultEmergencyFragment_to_suspectedNestFragment"
+            app:destination="@id/suspectedNestFragment" />
+        <action
+            android:id="@+id/action_adultEmergencyFragment_to_addNewEvent"
+            app:destination="@id/addNewEvent"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/addNewEvent"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

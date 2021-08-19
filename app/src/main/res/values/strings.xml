@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ArchelocApp_1</string>
+    <string name="morning_survey">Morning Survey</string>
+    <string name="start_new_morning_survey">Start new morning survey</string>
+    <string-array name="spinnerItems">
+        <item>Beach</item>
+        <item>Mavrovouni</item>
+        <item>Selinitsa</item>
+        <item>Vathi</item>
+        <item>Valtaki</item>
+    </string-array>
+    <string-array name="spinnerItems1">
+        <item>Sector</item>
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+    <string-array name="spinner3">
+        <item>Sky</item>
+        <item>clear</item>
+        <item>light overcast</item>
+        <item>heavy overcast</item>
+        <item>completely overcast</item>
+    </string-array>
+    <string-array name="spinner4">
+        <item>Precipitation</item>
+        <item>none</item>
+        <item>dizzle</item>
+        <item>rain</item>
+        <item>heavy rain</item>
+        <item>storm</item>
+    </string-array>
+    <string-array name="spinner7">
+        <item>Wind Intensity</item>
+        <item>no wind</item>
+        <item>weak (breeze)</item>
+        <item>medium</item>
+        <item>strong</item>
+        <item>gale</item>
+    </string-array>
+    <string-array name="spinner8">
+        <item>Wind Direction</item>
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="spinner9">
+        <item>Surf On Beach</item>
+        <item>calm</item>
+        <item>light</item>
+        <item>moderate</item>
+        <item>rough</item>
+        <item>swell</item>
+
+    </string-array>
+    <!--ImageView content descriptions-->
+    <string name="image_desc_icon">Icon</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="turtle_image">TODO</string>
+    <string name="arrowbutton">arrowbutton</string>
+    <string name="next">Next</string>
+    <string name="cancel_survey">Cancel Survey</string>
+    <string name="_4th_observer">4th Observer</string>
+
+    <string name="_3rd_observer">3rd Observer</string>
+    <string name="_2nd_observer">2nd Observer</string>
+    <string name="ms_leader">MS Leader</string>
+    <string name="weather">Weather</string>
+    <string name="observers">Observers</string>
+    <string name="emergency_relocation">Emergency Relocation</string>
+    <string name="nest_check">Nest Check</string>
+    <string name="start_new_survey">Start New Survey</string>
+    <string name="start_excavation">Start Excavation</string>
+
+
+</resources>

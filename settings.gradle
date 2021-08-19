@@ -1,0 +1,2 @@
+rootProject.name='ArchelocApp_1'
+include ':app'

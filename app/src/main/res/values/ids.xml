@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="surveyStart_layout" type="id" />
+    <item name="AreaText" type="id" />
+    <item name="datePicker" type="id" />
+    <item name="BeachText" type="id" />
+    <item name="SectorText" type="id" />
+    <item name="SubSectorText" type="id" />
+    <item name="EmergenceEventText" type="id" />
+    <item name="NestText" type="id" />
+    <item name="DistancetoSeaText" type="id" />
+    <item name="TrackTypeText" type="id" />
+    <item name="NonNestingAttemptsText" type="id" />
+    <item name="tagsText" type="id" />
+    <item name="CommentsText" type="id" />
+    <item name="photoIDText" type="id" />
+    <item name="survey_options" type="id" />
+</resources>

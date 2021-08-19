@@ -1,0 +1,904 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorBgPrimary">@color/colorPrimary</item>
+        <item name="colorBgDark">@color/colorPrimaryDark</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimary</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClicked</item>
+        <item name="colorButtonDark">@color/colorButtonDark</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClicked</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3</item>
+        <item name="colorButtonLight">@color/colorTag2</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorAccentPurple</item>
+        <item name="colorBgPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorBgDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryPurple</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClickedPurple</item>
+        <item name="colorButtonDark">@color/colorButtonDarkPurple</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClickedPurple</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3Purple</item>
+        <item name="colorButtonLight">@color/colorTag2Purple</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/colorAccentOrange</item>
+        <item name="colorBgPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorBgDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryOrange</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClickedOrange</item>
+        <item name="colorButtonDark">@color/colorButtonDarkOrange</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClickedOrange</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3Orange</item>
+        <item name="colorButtonLight">@color/colorTag2Orange</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppThemeTeal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTeal</item>
+        <item name="colorAccent">@color/colorAccentTeal</item>
+        <item name="colorBgPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorBgDark">@color/colorPrimaryDarkTeal</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryTeal</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClickedTeal</item>
+        <item name="colorButtonDark">@color/colorButtonDarkTeal</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClickedTeal</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3Teal</item>
+        <item name="colorButtonLight">@color/colorTag2Teal</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="colorBgPrimary">@color/colorPrimaryRed</item>
+        <item name="colorBgDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryRed</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClickedRed</item>
+        <item name="colorButtonDark">@color/colorButtonDarkRed</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClickedRed</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3Red</item>
+        <item name="colorButtonLight">@color/colorTag2Red</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="colorBgPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorBgDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryGreen</item>
+        <item name="colorButtonPrimaryClicked">@color/colorButtonPrimaryClickedGreen</item>
+        <item name="colorButtonDark">@color/colorButtonDarkGreen</item>
+        <item name="colorButtonDarkClicked">@color/colorButtonDarkClickedGreen</item>
+        <item name="colorBgPrimaryLight">@color/colorTag3Green</item>
+        <item name="colorButtonLight">@color/colorTag2Green</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_horizontal</item>
+    </style>
+
+    <!--Common-->
+    <style name="TextStyleMedium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="TextStyleRegular">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="TextStyleBold">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">@dimen/base_button_width</item>
+        <item name="android:layout_height">@dimen/base_button_height</item>
+        <item name="android:background">@drawable/rounded_button_primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="ButtonDarkStyle" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/home_button_width</item>
+        <item name="android:background">@drawable/rounded_button_dark</item>
+    </style>
+
+    <style name="BaseCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+    </style>
+
+    <!--Navigation-->
+    <style name="MainToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorBgPrimary</item>
+    </style>
+
+    <style name="LoginToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorBgDark</item>
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_back</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/base_title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="NavigationTitleBoldStyle" parent="TextStyleBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">@dimen/text_size_nav_title</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_extra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+    </style>
+
+    <style name="NavigationTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/nav_header_title</item>
+        <item name="android:textSize">@dimen/text_size_nav_title</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:layout_marginStart">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+    </style>
+
+    <style name="NavigationSubTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/nav_header_subtitle</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_extra_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+    </style>
+
+    <style name="NavigationItemTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+    <style name="SubMenuItemTitleStyle" parent="NavigationItemTitleStyle">
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <!--Home-->
+    <style name="HomeSubtitleStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="HomeTitleStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_nav_title</item>
+    </style>
+
+    <style name="HomeTextStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="HomeListStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="HomeLogoStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:contentDescription">@string/image_desc_bg</item>
+    </style>
+
+    <!--Lists-->
+    <style name="GroupParentListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/group_item_height</item>
+        <item name="android:background">@color/colorWhite</item>
+
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ChildParentListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/child_item_height</item>
+        <item name="android:background">@color/colorBackground</item>
+
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+        <item name="android:clipChildren">false</item>
+    </style>
+
+    <style name="ItemTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="ItemTagStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="AvatarListStyle">
+        <item name="android:layout_width">@dimen/list_avatar_size</item>
+        <item name="android:layout_height">@dimen/list_avatar_size</item>
+    </style>
+
+    <style name="ItemIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SwipeParentStyle">
+        <item name="android:layout_width">@dimen/swipe_parent_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="SwipeButtonParentStyle">
+        <item name="android:layout_width">@dimen/swipe_button_parent_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="ItemSubTitleStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="CardStyledSubtitle" parent="TextStyleBold">
+        <item name="android:textColor">?attr/colorBgPrimary</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="CardStyledTitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <style name="CardStyledIconText" parent="TextStyleRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+    </style>
+
+    <style name="CardStyledTwoSubtitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <style name="CardStyledTwoTitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="CardStyledTwoButton" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/card_styled_two_button_width</item>
+        <item name="android:layout_height">@dimen/card_styled_two_button_height</item>
+        <item name="android:background">@drawable/rounded_button_primary_two</item>
+        <item name="android:text">@string/list_button_text_2</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardStyledItemSubtitle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="CardFullImageSubtitle" parent="TextStyleBold">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="CardFullImageTitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <style name="CardFullImageButton" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/card_full_image_button_width</item>
+        <item name="android:layout_height">@dimen/card_full_image_button_height</item>
+        <item name="android:background">@drawable/rounded_button_primary</item>
+        <item name="android:text">@string/list_button_text_3</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_extra_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardFullImageItem" parent="TextStyleRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorTexExtraLight</item>
+    </style>
+
+
+    <style name="CardFullImageAvatarSubtitle" parent="TextStyleBold">
+        <item name="android:textColor">?attr/colorBgPrimary</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardFullImageAvatarTitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardFullImageAvatarButton" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/card_full_image_avatar_button_width</item>
+        <item name="android:layout_height">@dimen/card_full_image_avatar_button_height</item>
+        <item name="android:background">@drawable/rounded_button_blue</item>
+        <item name="android:text">@string/list_button_text_4</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_extra_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_ultra_larger</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="CardShoppingCartTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="CardShoppingCartSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="CardCategorySubTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="CardCategoryTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="CardImageTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardImageSubTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardColorSubTitle" parent="TextStyleBold">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardColorTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardColorItem" parent="TextStyleRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorTexExtraLight</item>
+    </style>
+
+    <!--Parallax-->
+    <style name="ParallaxFriendsSubtitleStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="ParallaxFriendsTitleStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <style name="ParallaxFriendsDescStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="ParallaxFriendsButtonStyle" parent="TextStyleMedium">
+        <item name="android:height">@dimen/parallax_friends_button_height</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/rounded_button_primary</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_extra_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="ParallaxShoppingTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <!--Search-->
+    <style name="SearchSimpleTextFieldStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textColorHint">@color/colorTextLight</item>
+        <item name="android:background">@drawable/rounded_edit_text_outline_grey</item>
+        <item name="android:hint">@string/search_placeholder</item>
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingEnd">@dimen/padding_ultra_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="SearchTopBarParentStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+        <item name="android:background">?attr/colorBgPrimary</item>
+    </style>
+
+    <style name="SearchTopBarTextFieldStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:background">@drawable/rounded_edit_text_primary</item>
+        <item name="android:hint">@string/search_placeholder</item>
+        <item name="android:paddingStart">@dimen/padding_extra_large</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingEnd">@dimen/padding_ultra_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="SearchItemSubtitle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <!--Gallery-->
+    <style name="GalleryBottomTextStyle" parent="TextStyleMedium">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+    </style>
+
+    <!--Login/Register/Password-->
+    <style name="LoginContentHeaderParentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/colorBgDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/padding_ultra_larger</item>
+        <item name="android:paddingBottom">@dimen/padding_ultra_larger</item>
+    </style>
+
+    <style name="LoginLogoStyle">
+        <item name="android:layout_width">@dimen/login_logo_size</item>
+        <item name="android:layout_height">@dimen/login_logo_size</item>
+        <item name="android:background">@drawable/ic_atom_logo</item>
+    </style>
+
+    <style name="LoginTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_extra_large</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_nav_title</item>
+    </style>
+
+    <style name="LoginSubTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTexExtraLight</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="LoginLabelStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="LoginEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="FacebookButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:text">@string/facebook</item>
+        <item name="android:background">@drawable/rounded_button_facebook</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TwitterButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:text">@string/twitter</item>
+        <item name="android:background">@drawable/rounded_button_twitter</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="LoginButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_button_primary</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">@dimen/margin_extra_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="LoginTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="LoginClickableTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <!--Wizard-->
+    <style name="WizardTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/margin_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_large</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WizardSubTitle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/margin_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_large</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WizardTextButton" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/padding_extra_large</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+
+    <style name="WizardProfileTitleStyle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WizardProfileSubtitleStyle" parent="TextStyleRegular">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WizardProfileFollowButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/wizard_profile_button_width</item>
+        <item name="android:layout_height">@dimen/wizard_profile_button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:text">@string/list_button_text_5</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+        <item name="android:background">@drawable/rounded_button_primary_two</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WizardProfileMessageButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/wizard_profile_button_width</item>
+        <item name="android:layout_height">@dimen/wizard_profile_button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:text">@string/list_button_text_1</item>
+        <item name="android:background">@drawable/rounded_button_dark_two</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Checkbox-->
+    <style name="CheckBoxTextStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="CheckBoxTextStyle">
+
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!--Radio Button-->
+    <style name="RadioButtonTextStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:layout_marginStart">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginEnd">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="RadioButtonTextStyle">
+
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!--Navigation-->
+    <style name="NavigationTextStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Toggle-->
+    <style name="ToggleTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="ToggleDescStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+    <style name="ToggleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/toggle_switch_bg</item>
+        <item name="android:thumb">@android:color/transparent</item>
+        <item name="android:track">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/padding_normal</item>
+    </style>
+
+    <!--Small Components-->
+    <style name="SmallComponentsTitle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="SmallSizeButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/small_size_width</item>
+        <item name="android:layout_height">@dimen/small_size_height</item>
+        <item name="android:text">@string/default_button</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">@dimen/margin_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="MediumSizeButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">@dimen/medium_size_width</item>
+        <item name="android:layout_height">@dimen/medium_size_height</item>
+        <item name="android:text">@string/default_button</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">@dimen/margin_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="BlockButtonStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/block_button_height</item>
+        <item name="android:background">@drawable/rounded_button_primary</item>
+        <item name="android:text">@string/block_button</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">@dimen/margin_large</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="SmallComponentsTagStyle" parent="TextStyleMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/small_size_height</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/padding_normal</item>
+        <item name="android:paddingEnd">@dimen/padding_normal</item>
+    </style>
+
+    <!--Rtl + Color Change-->
+    <style name="ColorChangeTitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_extra_large</item>
+    </style>
+
+    <style name="ColorChangeSubtitleStyle" parent="TextStyleRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+
+
+
+
+    <!--Select-->
+    <style name="SpinnerTextStyle" parent="TextStyleRegular">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="SpinnerAddressStyle" parent="TextStyleRegular">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+    </style>
+
+    <string name="base_title" />
+    <string name="nav_header_title" />
+    <string name="nav_header_subtitle" />
+    <string name="image_desc_bg" />
+    <string name="list_button_text_2" />
+    <string name="list_button_text_3" />
+    <string name="list_button_text_4" />
+    <string name="search_placeholder" />
+    <string name="facebook" />
+    <string name="twitter" />
+    <string name="list_button_text_5" />
+    <string name="list_button_text_1" />
+    <string name="default_button" />
+    <string name="block_button" />
+</resources>

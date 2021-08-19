@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/adultEmergence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Adult Emergence"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Hatching"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Found by Hatching"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Inundation / Wash"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Attempted / Predation"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Found by Predation"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Found by Other"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Vandalism"
+                    android:textColor="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="80sp"
+                    android:background="@color/colorTwitter"
+                    android:text="Other Event"
+                    android:textColor="@color/colorWhite" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/previous_Button"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/gray_button"
+                    android:text="Previous"
+                    android:textColor="@color/colorBlack" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cancel"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/red_button"
+                    android:text="Cancel"
+                    android:textColor="@color/colorWhite" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/gray_button"
+                    android:text="Next"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</layout>

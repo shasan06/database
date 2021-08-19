@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/turtle" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image"
+            android:background="@color/colorDivider"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp">
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/UsernameBtn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_text"
+                android:hint="User name"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/PasswordBtn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPassword"
+                android:layout_below="@+id/UsernameBtn"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_text"
+                android:hint="Password"
+                android:paddingLeft="10dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/arrowBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+                android:background="@drawable/button"
+                android:text="Login"
+                android:textColor="@color/colorWhite" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

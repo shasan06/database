@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Theme colors-->
+    <color name="colorPrimary">#056BFF</color>
+    <color name="colorPrimaryDark">#273238</color>
+    <color name="colorAccent">#056BFF</color>
+
+    <color name="colorButtonPrimary">#1DB293</color>
+    <color name="colorButtonPrimaryClicked">#157a65</color>
+    <color name="colorButtonDark">#0E213D</color>
+    <color name="colorButtonDarkClicked">#050f1f</color>
+    <color name="colorTag2">#CAEBE5</color>
+    <color name="colorTag3">#C6DCFB</color>
+
+    <!--Purple Theme colors-->
+    <color name="colorPrimaryPurple">#CD05FF</color>
+    <color name="colorPrimaryDarkPurple">#5B3656</color>
+    <color name="colorAccentPurple">#CD05FF</color>
+
+    <color name="colorButtonPrimaryPurple">#CE961B</color>
+    <color name="colorButtonPrimaryClickedPurple">#7B5A12</color>
+    <color name="colorButtonDarkPurple">#8C6386</color>
+    <color name="colorButtonDarkClickedPurple">#6A4C65</color>
+    <color name="colorTag2Purple">#f2e7ce</color>
+    <color name="colorTag3Purple">#e9d1f0</color>
+
+    <!--Orange Theme colors-->
+    <color name="colorPrimaryOrange">#CE961B</color>
+    <color name="colorPrimaryDarkOrange">#98562A</color>
+    <color name="colorAccentOrange">#CE961B</color>
+
+    <color name="colorButtonPrimaryOrange">#056BFF</color>
+    <color name="colorButtonPrimaryClickedOrange">#085AD1</color>
+    <color name="colorButtonDarkOrange">#B67448</color>
+    <color name="colorButtonDarkClickedOrange">#955D37</color>
+    <color name="colorTag2Orange">#C6DCFB</color>
+    <color name="colorTag3Orange">#FFE2DBCB</color>
+
+    <!--Teal Theme colors-->
+    <color name="colorPrimaryTeal">#13CABB</color>
+    <color name="colorPrimaryDarkTeal">#0A9B90</color>
+    <color name="colorAccentTeal">#13CABB</color>
+
+    <color name="colorButtonPrimaryTeal">#CE961B</color>
+    <color name="colorButtonPrimaryClickedTeal">#7B5A12</color>
+    <color name="colorButtonDarkTeal">#08625B</color>
+    <color name="colorButtonDarkClickedTeal">#054A45</color>
+    <color name="colorTag2Teal">#f2e7ce</color>
+    <color name="colorTag3Teal">#CAEBE5</color>
+
+    <!--Red Theme colors-->
+    <color name="colorPrimaryRed">#D14141</color>
+    <color name="colorPrimaryDarkRed">#871818</color>
+    <color name="colorAccentRed">#D14141</color>
+
+    <color name="colorButtonPrimaryRed">#D21CC6</color>
+    <color name="colorButtonPrimaryClickedRed">#BB1AB0</color>
+    <color name="colorButtonDarkRed">#AB3E3E</color>
+    <color name="colorButtonDarkClickedRed">#942D2D</color>
+    <color name="colorTag2Red">#FFE9C2E6</color>
+    <color name="colorTag3Red">#FFE9AAAA</color>
+
+    <!--Green Theme colors-->
+    <color name="colorPrimaryGreen">#17B239</color>
+    <color name="colorPrimaryDarkGreen">#207132</color>
+    <color name="colorAccentGreen">#17B239</color>
+
+    <color name="colorButtonPrimaryGreen">#CE961B</color>
+    <color name="colorButtonPrimaryClickedGreen">#7B5A12</color>
+    <color name="colorButtonDarkGreen">#3C8F4F</color>
+    <color name="colorButtonDarkClickedGreen">#146827</color>
+    <color name="colorTag2Green">#f2e7ce</color>
+    <color name="colorTag3Green">#FFB0DDB9</color>
+
+    <!--Common-->
+    <color name="colorButtonDisabled">#999999</color>
+    <color name="colorButtonGray">#71869B</color>
+    <color name="colorButtonGrayClicked">#556783</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorBackground">#F6F8FA</color>
+    <color name="colorBackgroundLight">#556783</color>
+    <color name="colorBackgroundExtraLight">#CFE1F2</color>
+    <color name="colorBackgroundDark">#0E213D</color>
+
+    <color name="colorTextDark">#0E213D</color>
+    <color name="colorTextLight">#556783</color>
+    <color name="colorTexExtraLight">#CFE1F2</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+
+    <color name="colorCardBgDark">#0E213D</color>
+    <color name="colorCardBgLight">#556783</color>
+    <color name="colorCardBgGreen">#1DB293</color>
+
+    <color name="colorTag1">#C7CDD4</color>
+    <color name="colorTagText1">#0E213D</color>
+    <color name="colorTagText2">#1DB293</color>
+    <color name="colorTagText3">#056BFF</color>
+
+    <color name="colorDivider">#68D0D0D0</color>
+
+    <color name="cards_over_header_color">#18000000</color>
+
+    <color name="colorFacebook">#3B5999</color>
+    <color name="colorFacebookClicked">#19439C</color>
+    <color name="colorTwitter">#1EA1F3</color>
+    <color name="colorTwitterClicked">#0797F2</color>
+</resources>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/startNewSurvey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorTwitter"
+                android:text="@string/start_new_survey"
+                android:textColor="@color/colorWhite" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorTwitter"
+                android:text="@string/nest_check"
+                android:textColor="@color/colorWhite" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorTwitter"
+                android:text="@string/emergency_relocation"
+                android:textColor="@color/colorWhite" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorTwitter"
+                android:text="@string/start_excavation"
+                android:textColor="@color/colorWhite" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PasswordBtn"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorPrimaryRed"
+                android:text="Logout"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</layout>
